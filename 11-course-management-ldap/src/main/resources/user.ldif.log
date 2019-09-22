@@ -1,0 +1,54 @@
+#!RESULT OK
+#!CONNECTION ldap://127.0.0.1:10389
+#!DATE 2018-03-26T09:54:09.564
+dn: ou=groups,dc=raghu,dc=com
+objectclass: organizationalUnit
+ou: groups
+
+#!RESULT OK
+#!CONNECTION ldap://127.0.0.1:10389
+#!DATE 2018-03-26T09:54:10.537
+dn: ou=people,dc=raghu,dc=com
+objectclass: organizationalUnit
+ou: people
+
+#!RESULT OK
+#!CONNECTION ldap://127.0.0.1:10389
+#!DATE 2018-03-26T09:54:11.558
+dn: uid=admin,ou=people,dc=raghu,dc=com
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Rod Johnson
+sn: Johnson
+uid: admin
+userPassword: password
+
+#!RESULT OK
+#!CONNECTION ldap://127.0.0.1:10389
+#!DATE 2018-03-26T09:54:12.526
+dn: uid=user,ou=people,dc=raghu,dc=com
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Dianne Emu
+sn: Emu
+uid: user
+userPassword: password
+
+#!RESULT OK
+#!CONNECTION ldap://127.0.0.1:10389
+#!DATE 2018-03-26T09:54:13.471
+dn: cn=user,ou=groups,dc=raghu,dc=com
+objectclass: groupOfNames
+cn: user
+member: uid=admin,ou=people,dc=raghu,dc=com
+member: uid=user,ou=people,dc=raghu,dc=com
+
+#!RESULT OK
+#!CONNECTION ldap://127.0.0.1:10389
+#!DATE 2018-03-26T09:54:14.641
+dn: cn=admin,ou=groups,dc=raghu,dc=com
+objectclass: groupOfNames
+cn: admin
+member: uid=admin,ou=people,dc=raghu,dc=com
