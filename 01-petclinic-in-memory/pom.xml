@@ -68,7 +68,7 @@
 		<mysql.version>5.1.22</mysql.version>
 
 		<!-- Spring Security Dependencies -->
-		<spring-security.version>4.0.4.RELEASE</spring-security.version>
+		<spring-security.version>5.2.10.RELEASE</spring-security.version>
 
 	</properties>
 
