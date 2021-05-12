@@ -11,7 +11,7 @@
 		<apache-tiles.version>3.0.7</apache-tiles.version>
 		<javax.servlet.jsp-api.version>2.3.1</javax.servlet.jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<spring-security.version>4.2.3.RELEASE</spring-security.version>
+		<spring-security.version>5.2.10.RELEASE</spring-security.version>
 		<spring-framework.version>5.0.0.RELEASE</spring-framework.version>
 	</properties>
 	<dependencies>
