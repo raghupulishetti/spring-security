@@ -12,7 +12,7 @@
 		<javax.servlet.jsp-api.version>2.3.1</javax.servlet.jsp-api.version>
 		<jstl.version>1.2</jstl.version>
 		<spring-security.version>4.2.3.RELEASE</spring-security.version>
-		<spring-framework.version>4.3.4.RELEASE</spring-framework.version>
+		<spring-framework.version>5.3.18</spring-framework.version>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
